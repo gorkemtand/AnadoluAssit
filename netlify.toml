@@ -1,6 +1,6 @@
 [build]
-  publish = "build"
-  command = "npm run build"
+publish = "client/build"
+command = "npm run build"
 
 [[functions]]
-  directory = "netlify/functions"
+directory = "lambda"
